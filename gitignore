@@ -1,0 +1,15 @@
+# Rust build output
+/target
+# Recordings and calibration dumps (huge, never commit)
+/recordings
+*.mp4
+*.mkv
+*.ppm
+# Secrets for the upload step (R2 keys etc.)
+.env
+config.local.*
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
